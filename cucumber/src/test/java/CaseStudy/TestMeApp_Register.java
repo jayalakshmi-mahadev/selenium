@@ -1,8 +1,8 @@
-package CaseStudy;
+/*package CaseStudy;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import cucumber.api.java.en.Given;
@@ -67,3 +67,4 @@ public class TestMeApp_Register {
 
 
 }
+*/
