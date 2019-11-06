@@ -29,7 +29,8 @@ public class PracticalExam {
 		pswd = pwd;
 		driver.findElement(By.id("userName")).sendKeys(user);
 		driver.findElement(By.id("password")).sendKeys(pswd);
-		driver.findElement(By.name("Login")).click();		
+		driver.findElement(By.name("Login")).click();
+		
 	}
 
 	@Then("Message login successfully")
