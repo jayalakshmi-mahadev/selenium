@@ -1,8 +1,8 @@
-@tag
+@start
 Feature: Login Action
    Test Login Functionality
 
-  @tag1
+  @valid
   Scenario Outline: Successfull login with valid credentials
     Given navigate to home page
     When user enters <username> as username and <password> as password

@@ -1,0 +1,217 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-06T10:13:13.874Z",
+        "line": 13,
+        "name": "Successfull login with valid credentials",
+        "description": "",
+        "id": "login-action;successfull-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16563249200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigate to home page",
+            "match": {
+              "location": "PracticalExam.navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13236142100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters Lalitha as username and Password123 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lalitha",
+                  "offset": 12
+                },
+                {
+                  "val": "Password123",
+                  "offset": 36
+                }
+              ],
+              "location": "PracticalExam.user_enters_Lalitha_as_username_and_Password_as_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 287461300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Message login successfully",
+            "match": {
+              "location": "PracticalExam.message_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@start"
+          },
+          {
+            "name": "@valid"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-06T10:13:44.064Z",
+        "line": 14,
+        "name": "Successfull login with valid credentials",
+        "description": "",
+        "id": "login-action;successfull-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16905469000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigate to home page",
+            "match": {
+              "location": "PracticalExam.navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12206733000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters Rick as username and Rick123 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rick",
+                  "offset": 12
+                },
+                {
+                  "val": "Rick123",
+                  "offset": 33
+                }
+              ],
+              "location": "PracticalExam.user_enters_Lalitha_as_username_and_Password_as_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226687000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Message login successfully",
+            "match": {
+              "location": "PracticalExam.message_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@start"
+          },
+          {
+            "name": "@valid"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-06T10:14:13.406Z",
+        "line": 15,
+        "name": "Successfull login with valid credentials",
+        "description": "",
+        "id": "login-action;successfull-login-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15381001700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigate to home page",
+            "match": {
+              "location": "PracticalExam.navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11881628800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters Andrew as username and Andrew123 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Andrew",
+                  "offset": 12
+                },
+                {
+                  "val": "Andrew123",
+                  "offset": 35
+                }
+              ],
+              "location": "PracticalExam.user_enters_Lalitha_as_username_and_Password_as_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 384222100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Message login successfully",
+            "match": {
+              "location": "PracticalExam.message_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@start"
+          },
+          {
+            "name": "@valid"
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "   Test Login Functionality",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/PracticalExam/PracticalExam.feature",
+    "tags": [
+      {
+        "name": "@start",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
