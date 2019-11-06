@@ -39,5 +39,6 @@ public class PracticalExam {
 		Assert.assertEquals("SignOut", actual);
 		System.out.println("Logged in Successfully");
 		driver.close();
+		
 	}
 }
